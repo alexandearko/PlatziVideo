@@ -28,12 +28,12 @@ module.exports = {
       },
       {
         test: /\.(s*)css$/,
-      use: [
-        { loader: MiniCssExtractPlugin.loader },
-        'css-loader',
-        'sass-loader',
-      ],
-      }
+        use: [
+          { loader: MiniCssExtractPlugin.loader },
+          'css-loader',
+          'sass-loader',
+        ],
+      },
     ],
   },
   plugins: [
@@ -43,6 +43,6 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css',
-    })
+    }),
   ],
 };
