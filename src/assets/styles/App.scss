@@ -1,5 +1,12 @@
 body {
-  margin: 0;
-  background-color: red;
-  color: white;
+  margin: 0px;
+  background-color: #8f57fd;
+  font-family: 'Muli', sans-serif;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
 }
