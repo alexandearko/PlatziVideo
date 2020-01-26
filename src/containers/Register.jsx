@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/styles/components/Register.scss';
 
 const Register = () => (
@@ -24,7 +25,9 @@ const Register = () => (
       Regístrate con twitter
       </div>
     </section>
-    <a className='register__container--login' href='/'>Iniciar sesión</a>
+    <Link to='/login'>
+      Iniciar sesión
+    </Link>
   </section>
 );
 
